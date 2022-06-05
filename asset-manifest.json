@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/clock_useeffect_setinterval/static/css/main.bb8b506f.css",
+    "main.js": "/clock_useeffect_setinterval/static/js/main.8c9f905e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/clock_useeffect_setinterval/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/clock_useeffect_setinterval/index.html",
+    "main.bb8b506f.css.map": "/clock_useeffect_setinterval/static/css/main.bb8b506f.css.map",
+    "main.8c9f905e.js.map": "/clock_useeffect_setinterval/static/js/main.8c9f905e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/clock_useeffect_setinterval/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb8b506f.css",
+    "static/js/main.8c9f905e.js"
+  ]
+}
