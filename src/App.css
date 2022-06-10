@@ -10,12 +10,27 @@ h1 {
 .table {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 
 }
 .table-item {
+  min-width: 200px;
   background-color: white;
   font-size: 30px;
   font-weight: bold;
   padding: 10px;
   border-radius: 15px;
+}
+.button {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #6c6c6e;
+  color: white;
+}
+.button:hover {
+  background-color: white;
+  color: #6c6c6e;
 }

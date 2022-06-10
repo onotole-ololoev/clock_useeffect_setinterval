@@ -1,24 +1,20 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import './App.css';
+import Clock from "./Clock";
+import DateTable from "./Date";
 
 function App() {
-    let [time, setTime] = useState<Date>(new Date)
 
-    useEffect(() => {
-        setInterval(() => {
-            setTime((time) => new Date)
-        }, 1000)
-    }, [])
+    let [change, setChange] = useState<boolean>(true)
 
+    const onClickChanger = () => setChange(!change)
 
     return (
         <div className="App">
 
             <h1>Clock</h1>
-
-            <div className={"table"}>
-                <div className={"table-item"}>{time.toLocaleTimeString()}</div>
-            </div>
+            {change ? <Clock /> : <DateTable />}
+            <button className={'button'} onClick={onClickChanger}>{change ? "show date" : "show clock"}</button>
         </div>
     );
 }
